@@ -8,7 +8,7 @@ var config = require('./config');
 var type = 'galaxy' // 背景图：type.conf.js
 var option = {}
 // 请求地址
-var baseUrl = page => 'https://unsplash.com/napi/collections/' + config.type[type].id + '/photos?page=' + config.pageNo + '&per_page=' + config.pageNum + '&order_by=latest&share_key=23b698712ee828a1f536ea6cab2a7396'
+var baseUrl = page => 'https://unsplash.com/napi/collections/' + config.type[type].id + '/photos?page=' + page + '&per_page=' + config.pageNum + '&order_by=latest&share_key=23b698712ee828a1f536ea6cab2a7396'
 
 // 创建文件夹
 if (!fs.existsSync(config.folderName)) {
