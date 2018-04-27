@@ -1,0 +1,20 @@
+{
+  "name": "macbackgrounds",
+  "version": "1.0.0",
+  "description": "spider for mac backgrounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spider",
+    "mac",
+    "backgrounds"
+  ],
+  "author": "LiuXing7130@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "request": "^2.85.0"
+  }
+}
